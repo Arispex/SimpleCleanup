@@ -1,0 +1,20 @@
+name: SimpleCleanup
+version: 1.0.0
+main: me.qianyiovo.simplecleanup.SimpleCleanup
+api-version: 1.19
+author: Qianyiovo
+description: a simple cleanup plugin
+commands:
+  sc:
+    usage: /sc
+    description: main command
+permissions:
+  sc.command.cleanup:
+    default: op
+    description: allow to use /sc cleanup
+  sc.command.reload:
+    default: op
+    description: allow to use /sc reload
+  sc.command.trash:
+    default: op
+    description: allow to use /sc trash
