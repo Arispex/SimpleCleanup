@@ -5,6 +5,8 @@ import org.bukkit.entity.Item
 import org.bukkit.entity.Player
 import org.bukkit.plugin.java.JavaPlugin
 import org.bukkit.scheduler.BukkitRunnable
+import net.md_5.bungee.api.ChatMessageType
+import net.md_5.bungee.api.chat.TextComponent
 
 class SimpleCleanup : JavaPlugin(){
     lateinit var customConfig: FileConfiguration
@@ -67,4 +69,12 @@ fun Player.sendLocalizedPermissionErrorMessage() {
 }
 fun Player.sendLocalizedCommandNotFound() {
     sendLocalizedMessage("${ChatColor.RED}不存在此命令", "${ChatColor.RED}Command not found")
+}
+fun Player.sendLocalizedActionBarMessage(zhMessage: String, enMessage: String) {
+    if (locale.startsWith("zh")) {
+        spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent(zhMessage))
+    }
+    else {
+        spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent(enMessage))
+    }
 }

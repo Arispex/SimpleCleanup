@@ -1,3 +1,6 @@
 CleanupIntervalTickets: 6000
 Prefix: "SimpleCleanup"
 Title: "Trash"
+Notification: 
+  - Message: true
+  - ActionBar: false
