@@ -1,4 +1,4 @@
-CleanupIntervalTickets: 6000
+CleanupIntervalTickets: 36000
 Prefix: "SimpleCleanup"
 Title: "Trash"
 Notification: 
