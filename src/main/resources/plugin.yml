@@ -1,7 +1,7 @@
 name: SimpleCleanup
 version: 1.1.0
 main: me.qianyiovo.simplecleanup.SimpleCleanup
-api-version: 1.19
+api-version: 1.16
 author: Qianyiovo
 description: a simple cleanup plugin
 commands:
