@@ -1,8 +1,8 @@
 ## Introduction
 
-Native Minecraft Version: 1.19
+Native Minecraft Version: 1.16
 
-Tested Minecraft Versions: 1.19.2
+Tested Minecraft Versions: 1.16, 1.17, 1.18, 1.19
 
 Languages Supported: English, Chinese
 
